@@ -6,7 +6,7 @@
 
 :root {
   color-scheme: dark;
-  background: #050505;
+  background: #0b0614;
   font-synthesis: none;
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
@@ -20,7 +20,7 @@
 body {
   margin: 0;
   min-width: 320px;
-  background: #050505;
+  background: #0b0614;
 }
 
 body::-webkit-scrollbar {
@@ -28,13 +28,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #050505;
+  background: #0b0614;
 }
 
 body::-webkit-scrollbar-thumb {
-  border: 2px solid #050505;
+  border: 2px solid #0b0614;
   border-radius: 999px;
-  background: rgba(217, 183, 111, 0.38);
+  background: rgba(201, 169, 104, 0.42);
 }
 
 button,
@@ -53,7 +53,7 @@ button {
 }
 
 .field span {
-  color: #9c9a94;
+  color: #a99fba;
   font-size: 0.82rem;
 }
 
@@ -63,8 +63,8 @@ button {
   min-height: 3rem;
   border-radius: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.11);
-  background: rgba(0, 0, 0, 0.34);
-  color: #f4efe6;
+  background: rgba(18, 10, 31, 0.72);
+  color: #f7f1ff;
   outline: none;
   padding: 0.78rem 1rem;
   transition:
@@ -75,17 +75,17 @@ button {
 
 .field input:focus,
 .field select:focus {
-  border-color: rgba(217, 183, 111, 0.72);
-  box-shadow: 0 0 0 4px rgba(217, 183, 111, 0.1);
-  background: rgba(0, 0, 0, 0.5);
+  border-color: rgba(201, 169, 104, 0.72);
+  box-shadow: 0 0 0 4px rgba(201, 169, 104, 0.12);
+  background: rgba(23, 16, 34, 0.92);
 }
 
 .field select option {
-  background: #111113;
-  color: #f4efe6;
+  background: #171022;
+  color: #f7f1ff;
 }
 
 ::selection {
-  background: rgba(217, 183, 111, 0.35);
+  background: rgba(201, 169, 104, 0.38);
   color: #ffffff;
 }
