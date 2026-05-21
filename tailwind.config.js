@@ -4,15 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        obsidian: "#050505",
-        graphite: "#111113",
-        champagne: "#d9b76f",
-        ivory: "#f4efe6",
-        smoke: "#9c9a94",
+        obsidian: "#0b0614",
+        graphite: "#171022",
+        champagne: "#c9a968",
+        ivory: "#f7f1ff",
+        smoke: "#a99fba",
       },
       boxShadow: {
-        premium: "0 24px 90px rgba(0, 0, 0, 0.45)",
-        gold: "0 0 42px rgba(217, 183, 111, 0.14)",
+        premium: "0 24px 90px rgba(11, 6, 20, 0.62)",
+        gold: "0 0 42px rgba(201, 169, 104, 0.18)",
       },
       fontFamily: {
         sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
